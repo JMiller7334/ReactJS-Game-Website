@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Nav from "./components/Nav"
+import Main from "./components/Main"
+
+//class/model imports:
+import { FeaturesDescription, RidesDescription, StoryDescription } from "./assets/content/TextContentDescription";
+
 
 function App() {
+
+  let contentTopic = "Rides"
+  let textContentObject = {"Features":FeaturesDescription, "Rides":RidesDescription, "Story":StoryDescription}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+    <Nav></Nav>
+    <Main contentTopic={contentTopic} textDescription={textContentObject[contentTopic]} ></Main>
+    </>
   );
 }
 
