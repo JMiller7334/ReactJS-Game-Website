@@ -31,6 +31,7 @@ export default function Hero(props) {
         );
     }
 
+    //return the html elements:
     return (
         <div className="hero-container">
             {heroToRender}

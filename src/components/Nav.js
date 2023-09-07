@@ -23,7 +23,6 @@ export default function Nav(){
             <button id="navButton" onClick={handlePlayNowClick}>
                 <a href={playNowLink}>Play Now</a>
             </button>
-            <button id="buttonToggleSidebar" onClick={handleSidebar} className="sidebarButton">&#9776; Game Info</button>
         </div>
     </nav>
     )

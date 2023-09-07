@@ -99,10 +99,6 @@ footer {
   color: white;
 }
 
-#copyright-statement p {
-  font-size: 15px;
-}
-
 .background {
   display: none;
 }
@@ -174,130 +170,9 @@ footer {
   font-family: "Ubuntu Condensed", sans-serif;
   padding: 15px;
 }
-.category-container .content-container {
-  grid-area: primary-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #171717;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.category-container .content-container section {
-  margin-top: 0px;
-  grid-area: section;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*grid-template-columns: 2fr 1fr;
-  grid-template-rows: repeat(1fr 3fr);
-  grid-template-areas: 
-      "topic ."
-      "article article";*/
-}
-.category-container .content-container section h2, .category-container .content-container section h3 {
-  grid-area: topic;
-  color: white;
-  font-family: "Permanent Marker", cursive;
-  text-align: left;
-  font-size: calc(1rem + 1.5vw);
-  width: 100%;
-  height: -moz-min-content;
-  height: min-content;
-  margin-top: 3vw;
-  margin-bottom: 0vw;
-  padding-left: 10px;
-}
-.category-container .content-container section h3 {
-  padding-bottom: 15px;
-}
-.category-container .content-container section #banner {
-  border: 2px solid purple;
-  width: 100%;
-  height: 15vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: -1vh;
-}
-.category-container .content-container section article {
-  grid-area: article;
-  width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-  padding-left: 25px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 3fr 2fr;
-  grid-template-rows: min-content 4fr;
-  grid-template-areas: "title img" "info img";
-}
-.category-container .content-container section article h2, .category-container .content-container section article h3, .category-container .content-container section article h4 {
-  vertical-align: bottom;
-  grid-area: title;
-  color: white;
-  font-family: "Permanent Marker", cursive;
-  font-size: calc(1rem + 1.5vw);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  width: 95%;
-  padding: 0vw 0px;
-}
-.category-container .content-container section article p {
-  grid-area: info;
-  color: white;
-  font-family: "Ubuntu Condensed", sans-serif;
-  width: 95%;
-  padding: 5px 1rem;
-  padding-right: 10px;
-}
-.category-container .content-container section article img {
-  grid-area: img;
-}
-.category-container .content-container section article #photoL {
-  width: 80%;
-  transform: rotate(-3deg);
-}
-.category-container .content-container section article #photoR {
-  width: 80%;
-  transform: rotate(2deg);
-}
-.category-container .content-container section article #standardImg {
-  margin-top: 10%;
-  width: 80%;
-}
-.category-container .content-container section article #vectorImg {
-  filter: invert(100%);
-  max-height: 200px;
-}
-.category-container .content-container section #featureItem {
-  grid-template-rows: auto;
-}
-.category-container .content-container section #featureItem img {
-  min-height: 100px;
-  margin-right: 2vw;
-  margin-bottom: 25%;
-}
 .category-container p {
   font-size: calc(1rem + 1vw);
   line-height: calc(1rem + 1.5vw);
-}
-
-#categoryStory {
-  display: none;
-}
-#categoryStory img {
-  max-width: 400px;
-}
-
-#categoryRides {
-  display: none;
-}
-
-#categoryFeatures {
-  display: block;
 }
 
 @media only screen and (min-width: 900px), only screen and (orientation: landscape) {
@@ -372,9 +247,6 @@ footer {
   .page-main-container p {
     font-size: calc(0.5rem + 1vw);
     line-height: calc(0.5rem + 1.5vw);
-  }
-  .hero-container .hero-text {
-    font-size: 2em;
   }
 }
 nav {

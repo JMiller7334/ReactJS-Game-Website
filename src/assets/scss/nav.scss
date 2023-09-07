@@ -38,7 +38,7 @@ nav{
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
+    height: 7vh;
     align-items: center;
 
     .nav-button-container{
@@ -135,10 +135,10 @@ a:active {
  /* RESPONSIVE -- MOBILE DESIGN */
 @media only screen and (max-width: 900px){
     nav {
-        height: auto;
+        height: 7vh;
         width: 100vw;
         #navButton {
-            height: auto;
+            height: 40px;
             margin: 5px;
             font-size: 15px;
             width: 80px;
