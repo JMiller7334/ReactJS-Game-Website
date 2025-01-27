@@ -1,0 +1,13 @@
+@keyframes make-scrollbar {
+  0% {
+    overflow-y: hidden;
+  }
+  100% {
+    overflow-y: auto;
+  }
+}
+body {
+  overflow-x: hidden;
+  background-color: #171717;
+  animation: make-scrollbar 1s linear 4.5s 1 normal both;
+}/*# sourceMappingURL=body.css.map */

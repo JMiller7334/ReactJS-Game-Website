@@ -1,13 +1,13 @@
 import React from "react";
-import "../assets/css/nav.css"
+import "../assets/scss/updatedNav.css"
 
 export default function Nav(){
 
-    const playNowLink = "https://www.roblox.com/games/636542147/Theme-Park-Project"
+    const returnLink = "https://jacobjmiller.com/"
 
 // Function to handle the "Play Now" button click
-    const handlePlayNowClick = () => {
-        window.location.href = playNowLink;
+    const handleReturnClick = () => {
+        window.location.href = returnLink;
     };
 
     const handleSidebar = () => {
@@ -20,9 +20,9 @@ export default function Nav(){
             <div className="nav-logo-container">
                 <img src="img/vectors/vectorGameLogo.svg" alt="Project Theme Park logo" />
             </div>
-            <button id="navButton" onClick={handlePlayNowClick}>
-                <a href={playNowLink}>Play Now</a>
-            </button>
+            {<button id="navButton" onClick={handleReturnClick}>
+                <a href={returnLink}>Return to Portfolio</a>
+            </button> }
         </div>
     </nav>
     )
