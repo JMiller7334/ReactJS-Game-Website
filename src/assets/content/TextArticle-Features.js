@@ -7,7 +7,7 @@ const explore = new ModelContentArticle(
 
     "featureItem",
 
-    `Embark on a journey through the world of Theme Park Project, filled with locations just waiting to be explored. Whether you're searching for hidden secrets or simply seeking to relax, this adventure-packed game has something for everyone.`,
+    `Set out to explore the game, filled with locations and roller coasters to discover. Whether you're searching for hidden secrets or simply looking to relax, there is plenty to find and explore.`,
 
     "img/vectors/vectorExplore.svg",
 
@@ -39,7 +39,7 @@ const customize = new ModelContentArticle(
 
     `Choose from a wide range of unique titles and more to customize your character and stand out from the crowd. 
     \n\n
-    With unlimited customization options available, Theme Park Project offers endless possibilities to play the game your way.`,
+    With plenty customization options available, there are tons of possibilities to play the game your way.`,
 
     "img/vectors/vectorCustomize.svg",
 

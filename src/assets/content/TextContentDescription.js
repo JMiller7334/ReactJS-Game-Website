@@ -9,9 +9,9 @@ import { ModelContentDescription } from "../../models/ModelContentDescription";
 export const FeaturesDescription = new ModelContentDescription(
     "More Than A Theme Park:",
 
-    ` Theme Park Project offers a vast and imaginative world, featuring a dynamic day/night cycle and interactive NPCs that bring the park to life. With items to collect, leaderboards to climb, and a captivating 3-chapter story to uncover the mysterious secrets of the park. There's never a dull moment. 
-    \n\n
-    Players can also fish with friends and enjoy the many unique attractions. Immerse yourself in the lore of Theme Park Project, which includes its own books, and make your mark with customizable titles and player-owned housing. With hours of gameplay, each visit to the park is sure to leave players with something new to discover.`
+    ` Theme Park Project offers a vast and imaginative world, featuring interactive NPCs, items to collect, leaderboards to climb, and a 3-chapter story mode to play. 
+    
+    Players can also go fishing, enjoy the many in-game attractions, discover lore by reading in-game books, or simply hang out with their friends in this online game.`
 
     ,""
     );
