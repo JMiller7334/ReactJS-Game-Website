@@ -25,4 +25,4 @@ was orignally designed using HTML, CSS/SCSS, and Javascript. This is a direct cl
 + Game Website Project: https://github.com/JMiller7334/Game-Website 
 
 ### Links:
-+ Official Game Website (Non-React version): https://themeparkproject.com/
++ Live Demo (React version): https://themeparkproject.com/
