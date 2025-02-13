@@ -25,14 +25,12 @@ nav {
   height: 7vh;
   align-items: center;
 }
-
 nav .nav-button-container {
   grid-area: main-nav;
   display: flex;
   height: 100%;
   align-items: center;
 }
-
 nav .nav-button-container .nav-logo-container {
   background-color: rgb(144, 3, 3);
   display: flex;
@@ -43,37 +41,33 @@ nav .nav-button-container .nav-logo-container {
   height: 100%;
   margin-right: 20px;
 }
-
 nav .nav-button-container .nav-logo-container img {
   height: 90%;
   width: auto;
   filter: invert(100%);
 }
-
 nav #navButton {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: 1rem;
+
   padding-left: 10px;
   padding-right: 10px;
+  
   height: 40px;
-  width: -moz-fit-content;
   width: fit-content;
   background-color: transparent;
   border-radius: 2px;
   border: 0px solid white;
 }
-
 nav #navButton:hover {
   transition-duration: 0.25s;
   background-color: transparent;
   transform: scale(1.1);
   border: 2px solid white;
 }
-
 nav #navButton:hover a {
   transform: scale(1.1);
 }
-
 nav #navButton a {
   font-family: "Ubuntu Condensed", sans-serif;
   text-decoration: none;
@@ -98,7 +92,6 @@ nav #navButton a {
   border: 0px solid rgb(255, 255, 255);
   transition: 0.25s;
 }
-
 #buttonToggleSidebar:hover {
   border: 2px solid rgb(66, 172, 254);
   color: rgb(66, 172, 254);
@@ -122,7 +115,6 @@ a:active {
     height: 40px;
     margin: 5px;
     font-size: 15px;
-    width: -moz-fit-content;
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
@@ -140,4 +132,4 @@ a:active {
   #buttonToggleSidebar:hover {
     border: 0px;
   }
-} /*# sourceMappingURL=updatedNav.css.map */
+}/*# sourceMappingURL=nav.css.map */
