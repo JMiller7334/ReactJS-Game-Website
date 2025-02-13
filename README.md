@@ -21,7 +21,7 @@ was orignally designed using HTML, CSS/SCSS, and Javascript. This is a direct cl
 + [Styling - SCSS](https://github.com/JMiller7334/ReactJS-Game-Website/tree/master/src/assets/scss)
 
 ## Related Links & Projects:
-### Projects:
+### Related Projects:
 + Game Website Project: https://github.com/JMiller7334/Game-Website 
 
 ### Links:
