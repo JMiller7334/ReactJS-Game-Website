@@ -9,7 +9,7 @@ const cliffDiver = new ModelContentArticle(
 
     "",
 
-    `Perched atop a towering canyon, Cliff Diver reigns as the park's tallest roller coaster, boasting a vertigo-inducing steep drop. Riders will experience an adrenaline-fueled rush as they hurtle down the coaster's first drop, descending a waterfall and into two consecutive inversions`,
+    `Perched atop a canyon, Cliff Diver reigns as the park's tallest roller coaster. Riders will experience an adrenaline-fueled rush as they hurtle down the coaster's first drop, descending a waterfall and into two consecutive inversions`,
 
     "img/coaster_cliffHanger.jpg",
 
@@ -23,7 +23,7 @@ const hurricane = new ModelContentArticle(
 
     "",
 
-    `Hurricane is an exceedingly rare prototype coaster that provides a smooth and safe ride. What sets Hurricane apart from other coasters is its intensity. The sudden transitions and quick pacing create an adrenaline-fueled ride that will leave even the most experienced coaster enthusiasts breathless.`,
+    `Hurricane is an exceedingly rare prototype coaster that provides a smooth ride. What sets Hurricane apart from other coasters is its intensity. The sudden transitions and quick pacing create an adrenaline-fueled experience.`,
 
     "img/coaster_hurricane.jpg",
 
@@ -52,9 +52,9 @@ const wyvern = new ModelContentArticle(
 
     "",
 
-    `Wyvern is an inverted coaster that takes riders on a thrilling journey through a castle on the outskirts of the park. The coaster is well-known for its nine inversions, which provide a heart-pumping ride experience.
+    `Wyvern is an inverted coaster that takes riders on a thrilling journey through a castle on the outskirts of the park. The coaster is known for its nine inversions, which provide a heart-pumping ride experience.
     \n\n
-    Rumor has it that the coaster was built exceedingly fast due to the sudden disappearance of another ride. Despite the mysterious circumstances surrounding its construction, Wyvern has become a fan favorite among coaster enthusiasts.`,
+    Rumor has it that the coaster was built exceedingly fast due to the sudden disappearance of another ride. Despite the mysterious circumstances surrounding its construction, Wyvern has become a fan favorite.`,
 
     "img/coaster_wyvern.jpg",
 
@@ -71,8 +71,8 @@ const endBringer = new ModelContentArticle(
     `The Theme Park's classic roller coaster and the oldest standing ride at the park. End Bringer spans almost the entire length of the park. The coaster
     takes riders from the Central Square to the Beachside District where riders are taken high above the sea below.
     \n\n
-    Featuring 6 inversions End bringer is known for it's iconic interlocking loops and winding corkscrews. Over the years the roller coaster has 
-    become a fan favorite among coaster enthusiasts and casual park-goers alike.`,
+    Featuring 6 inversions End bringer is known for it's iconic interlocking loops. Over the years the roller coaster has 
+    become a fan favorite among vistors.`,
 
     "img/coaster_endBringer.jpg",
 

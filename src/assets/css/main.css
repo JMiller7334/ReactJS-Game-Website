@@ -202,7 +202,7 @@ footer {
     align-items: center;
     height: 100%;
     width: 100vw;
-    margin-top: 140vh;
+    margin-top: 40vh;
     z-index: -1;
   }
   .background img {
@@ -212,11 +212,12 @@ footer {
        object-fit: cover;
   }
   .background .fill {
-    position: absolute;
+    display: none;
+    /* position: absolute;
     background-color: #171717;
     width: 100vw;
     height: 100%;
-    bottom: -110vh;
+    bottom: -110vh;*/
   }
   .page-main-container {
     top: 0;

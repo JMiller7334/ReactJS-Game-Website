@@ -212,6 +212,7 @@ footer {
        object-fit: cover;
   }
   .background .fill {
+    display: none;
     position: absolute;
     background-color: #171717;
     width: 100vw;
